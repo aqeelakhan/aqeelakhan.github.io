@@ -28,3 +28,58 @@ ul {
 	padding-top:50px;
 	padding-bottom:50px;
 }
+
+@media screen and (min-device-height:320px) and (max-device-width:420px) {
+	
+	img {
+		width:50%;
+		height:50%;
+	}
+
+	h2 {
+		font-size:15pt;
+		margin-left:40pt;
+		margin-right:40pt;
+	}
+
+	#header {
+		font-size:25pt;
+	}
+
+	ul {
+	font-size: 14pt;
+	margin-left:50px;
+	margin-right:50px;
+	border:3px dashed red;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+}
+
+@media screen and (min-device-height:720px) and (max-device-width:1050px) {
+	img {
+		width:20%;
+		height:20%;
+	}
+
+	h2 {
+		font-size:30pt;
+		margin-left:80pt;
+		margin-right:80pt;
+	}
+
+	#header {
+		font-size:50pt;
+	}
+
+	ul {
+	font-size: 20pt;
+	margin-left:100px;
+	margin-right:100px;
+	border:3px dashed red;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+}
